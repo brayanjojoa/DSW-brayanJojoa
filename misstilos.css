@@ -6,7 +6,7 @@ body{
 }
 
 .titulo{
-    
+    font-size: 1cm;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #005883;
@@ -15,10 +15,12 @@ body{
     text-align: center;
     padding: 20px;
     background-color: #F0B429;
+    font-size: 30px;
 }
 .tabla{
     border: #F0B429;
     padding: 30px;
+    font-size: 7;
 }
 .texto{
     padding: 30px;

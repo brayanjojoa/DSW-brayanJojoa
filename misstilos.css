@@ -22,8 +22,13 @@ body{
 }
 .texto{
     padding: 30px;
+
 }
 .img{
+    display: block;
+    margin: auto;
+}
+.centrado{
     display: block;
     margin: auto;
 }

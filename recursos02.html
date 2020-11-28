@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OVI Diseño web</title>
     <link rel="stylesheet" href="misstilos.css">
+    <link rel="stylesheet" href="estilosmenu.css">
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
     
@@ -12,15 +15,31 @@
 
         <h1 class="titulo">CSS3: Estilos internos y Externos, Selectores CSS</h1>
 
-        <div class="menu">
-        
-            <a href="index.html">Inicio</a>
-            <a href="conceptos01.html">Conceptos</a>
-            <a href="recursos01.html">Recursos</a>
-            <a href="autoevaluacion01.html">Autoevaluación</a>
-            <a href="autor.html">Autor</a>
-            
-        </div> 
+        <header>
+            <nav class="navegacion">
+                <ul class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="conceptos01.html">Conceptos</a>
+                        <ul class="submenu">
+                            <li><a href="conceptos02.html">Conceptos #2</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li><a href="recursos01.html">Recursos</a>
+                        <ul class="submenu">
+                            <li><a href="recursos02.html">Recursos #2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="autoevaluacion01.html">Autoevaluación</a>
+                        <ul class="submenu">
+                            <li><a href="autoevaluacion02.html">Autoevaluacion #2</a></li>
+                            <li><a href="MatrizAutoevaluacion.html">Matriz Autoevaluacion</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="autor.html">Autor</a></li>
+                </ul>
+            </nav>
+        </header>
         
         <h2 class="titulo">Aplicando estilos en HTML5 </h2>
     <img class="img" src="HTML y CSS.png" alt="CSS ">
@@ -51,6 +70,13 @@
             </td>
         </tr>
     </table>
+    <div class="social-bar">
+        <a href="https://www.facebook.com/UniversidadUNAD/" class="icon icon-facebook" target="_blank"></a>
+        <a href="https://twitter.com/UniversidadUNAD" class="icon icon-twitter" target="_blank"></a>
+        <a href="https://www.youtube.com/user/universidadunad" class="icon icon-youtube" target="_blank"></a>
+        <a href="https://www.instagram.com/universidadunad/" class="icon icon-instagram" target="_blank"></a>
+      </div>
+
     <img class="img" src="pie de pagina.PNG" alt="UNAD" width="1340" height="200">
 </body>
 </html>

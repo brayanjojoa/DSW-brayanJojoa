@@ -6,7 +6,9 @@
     <title>OVI Diseño web</title>
 
     <link rel="stylesheet" href="misstilos.css">
-
+    <link rel="stylesheet" href="estilosmenu.css">
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
     
@@ -14,18 +16,36 @@
     
 <h1 class="titulo">CSS3: Estilos internos y Externos, Selectores CSS</h1>
 
-<div class="menu">
+<header>
+    <nav class="navegacion">
+        <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="conceptos01.html">Conceptos</a>
+                <ul class="submenu">
+                    <li><a href="conceptos02.html">Conceptos #2</a></li>
+                    
+                </ul>
+            </li>
+            <li><a href="recursos01.html">Recursos</a>
+                <ul class="submenu">
+                    <li><a href="recursos02.html">Recursos #2</a></li>
+                </ul>
+            </li>
+            <li><a href="autoevaluacion01.html">Autoevaluación</a>
+                <ul class="submenu">
+                    <li><a href="autoevaluacion02.html">Autoevaluacion #2</a></li>
+                    <li><a href="MatrizAutoevaluacion.html">Matriz Autoevaluacion</a></li>
+                </ul>
+            </li>
+            <li><a href="autor.html">Autor</a></li>
+        </ul>
+    </nav>
+</header>
 
-    <a href="index.html">Inicio</a>
-    <a href="conceptos01.html">Conceptos</a>
-    <a href="recursos01.html">Recursos</a>
-    <a href="autoevaluacion01.html">Autoevaluación</a>
-    <a href="autor.html">Autor</a>
-    
-</div>
+
 
 <h2 class="texto">Inicio</h2>
-<img src="logoUNAD.PNG" alt="UNAD">
+<img class="img" src="logoUNAD.PNG" alt="UNAD">
 <p class="texto">Este OVI está diseñado para la comprensión de conceptos básicos de CSS Para ello disponemos material para su comprensión donde por medio de la definición de conceptos, tutoriales y algunos videos e 
     imágenes relacionadas a CSS, lograremos comprender cada concepto del tema.</p>
    
@@ -75,6 +95,15 @@
 </aside>
 
     <img class="img" src="pie de pagina.PNG" alt="UNAD" width="1340" height="200">
+
+    <div class="social-bar">
+        <a href="https://www.facebook.com/UniversidadUNAD/" class="icon icon-facebook" target="_blank"></a>
+        <a href="https://twitter.com/UniversidadUNAD" class="icon icon-twitter" target="_blank"></a>
+        <a href="https://www.youtube.com/user/universidadunad" class="icon icon-youtube" target="_blank"></a>
+        <a href="https://www.instagram.com/universidadunad/" class="icon icon-instagram" target="_blank"></a>
+      </div>
+
+
 
 </body>
 </html>
